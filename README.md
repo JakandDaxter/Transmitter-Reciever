@@ -1,2 +1,4 @@
 # Transmitter-Reciever
- Have two DE0-1 boards transmit encrypted data over GPIO pins and decrypt it on the recieving board
+
+Digital communications are ubiquitous in today’s connected society. We take for granted that we can just as easily communicate with somebody who is across campus as with somebody who is across the globe. Often times the information that is being transmitted is confidential and has to be protected from interception. Protection of data is known as encryption. In encryption, an encryption key is used to scramble the data prior to its transmission. Upon reception, the same key is used to unscramble the data back to its original form (decryption).
+In this lab communication and encryption will be investigated. A very simple encryption algorithm will be used to encrypt a four digit pin and a communication protocol will be used to transmit the encrypted data. A receiver will also be developed to receive and decrypt the data.
